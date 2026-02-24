@@ -2,6 +2,8 @@
 
 A lightweight, file-backed Kanban board designed for use alongside AI coding agents. Tasks are stored as plain JSON files on disk, making them readable and writable by both the web UI and AI agents directly. Real-time synchronization between all connected clients is provided via WebSockets.
 
+<img width="2229" height="1149" alt="Screenshot 2026-02-24 163553" src="https://github.com/user-attachments/assets/20bf7e4e-aa91-403c-8e9c-d16f54b00e23" />
+
 ---
 
 ## Features
