@@ -1,0 +1,18 @@
+# Ignore all .log files
+*.log
+
+# Ignore pid file
+*.pid
+
+# Ignore package lock file
+package-lock.json
+
+# Ignore data
+data/
+
+# Ignore node modules
+node_modules/
+react-ui/node_modules/
+
+# Ignore build
+react-ui/build/

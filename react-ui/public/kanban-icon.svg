@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background rounded square -->
+  <rect x="16" y="16" width="480" height="480" rx="64" fill="#4A90D9"/>
+
+  <!-- Three columns -->
+  <!-- Column 1 - To Do -->
+  <rect x="56" y="80" width="120" height="360" rx="12" fill="#ffffff" opacity="0.2"/>
+  <rect x="68" y="120" width="96" height="56" rx="8" fill="#ffffff"/>
+  <rect x="68" y="188" width="96" height="56" rx="8" fill="#ffffff"/>
+  <rect x="68" y="256" width="96" height="56" rx="8" fill="#ffffff"/>
+
+  <!-- Column 2 - In Progress -->
+  <rect x="196" y="80" width="120" height="360" rx="12" fill="#ffffff" opacity="0.2"/>
+  <rect x="208" y="120" width="96" height="56" rx="8" fill="#FFD166"/>
+  <rect x="208" y="188" width="96" height="56" rx="8" fill="#FFD166"/>
+
+  <!-- Column 3 - Done -->
+  <rect x="336" y="80" width="120" height="360" rx="12" fill="#ffffff" opacity="0.2"/>
+  <rect x="348" y="120" width="96" height="56" rx="8" fill="#06D6A0"/>
+  <rect x="348" y="188" width="96" height="56" rx="8" fill="#06D6A0"/>
+  <rect x="348" y="256" width="96" height="56" rx="8" fill="#06D6A0"/>
+  <rect x="348" y="324" width="96" height="56" rx="8" fill="#06D6A0"/>
+
+  <!-- Column headers -->
+  <text x="116" y="105" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="18" font-weight="bold">TO DO</text>
+  <text x="256" y="105" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="18" font-weight="bold">DOING</text>
+  <text x="396" y="105" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="18" font-weight="bold">DONE</text>
+
+  <!-- Card lines (visual detail) -->
+  <line x1="78" y1="142" x2="144" y2="142" stroke="#ccc" stroke-width="2" stroke-linecap="round"/>
+  <line x1="78" y1="154" x2="130" y2="154" stroke="#ddd" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Checkmarks on done cards -->
+  <path d="M380 145 l8 8 l16-16" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M380 213 l8 8 l16-16" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M380 281 l8 8 l16-16" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M380 349 l8 8 l16-16" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
